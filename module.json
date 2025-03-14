@@ -1,0 +1,75 @@
+{
+  "id": "wfrp4e-advanced-criticals",
+  "title": "WFRP4E - Advanced criticals from WindsOfChaos",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {
+		  "minimum": "8.0.2",
+          "verified": "8.0.4"
+		}
+      }
+    ]
+  },
+  "description": "A module adding alternative critical tables for WFRP4ed for different kinds of damage source.",
+  "authors": [
+    {
+      "name": "ADDNW",
+      "discord": "DDNW",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "wfrp4e-adv-criticals.mjs"
+  ],
+  "packs": [
+    {
+      "name": "advanced-criticals",
+      "label": "Expanded Criticals",
+      "path": "packs/advanced-criticals",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "advanced-criticals-rolltables",
+      "label": "Expanded Criticals Rolltables",
+      "path": "packs/advanced-criticals-rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e"
+    },
+    {
+      "name": "advanced-criticals-macros",
+      "label": "Expanded Criticals Macros",
+      "path": "packs/advanced-criticals-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e"
+    }
+  ],
+  "packFolders": [
+      {
+        "name": "Expanded Criticals",
+        "sorting": "m",
+        "packs": ["advanced-criticals","advanced-criticals-rolltables","advanced-criticals-macros"],
+        "color":  "#e71313"
+      }
+    ]
+}
