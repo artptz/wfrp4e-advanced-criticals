@@ -1,8 +1,8 @@
 # EXPANDED CRITICALS FOR WFRP4E
 Expqanded criticals according to the supplement by Josef Tham
 
-##LOG
-###Arrows
+## LOG
+### Arrows
 - All arrows items: how to handle extraction?
 
 **Arm**
@@ -24,7 +24,7 @@ Expqanded criticals according to the supplement by Josef Tham
 - Lower Leg Injury: Injury missing
 - Pierced Patellar Injury: Injury missing (same as lower leg injury) 
 
-###Bolts
+### Bolts
 **Arm**
 - Shoulder Wound: drop item missing
 
