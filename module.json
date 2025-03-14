@@ -21,9 +21,13 @@
   "description": "A module adding alternative critical tables for WFRP4ed for different kinds of damage source.",
   "authors": [
     {
-      "name": "ADDNW",
-      "discord": "DDNW",
-      "flags": {}
+      "name": "TuroTotoro",
+      "discord": "turototoro#5673",
+      "url": "https://github.com/artptz/wfrp4e-darto"
+    },
+    {
+      "name": "derMetatron",
+      "discord": "peace#3721"
     }
   ],
   "esmodules": [
@@ -71,5 +75,7 @@
         "packs": ["advanced-criticals","advanced-criticals-rolltables","advanced-criticals-macros"],
         "color":  "#e71313"
       }
-    ]
+    ],
+  "manifest":"https://raw.githubusercontent.com/artptz/wfrp4e-advanced-criticals/main/module.json",
+  "download": "https://github.com/artptz/wfrp4e-advanced-criticals/archive/main.zip"
 }

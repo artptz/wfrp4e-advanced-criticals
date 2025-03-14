@@ -28,6 +28,10 @@ Expqanded criticals according to the supplement by Josef Tham
 **Arm**
 - Shoulder Wound: drop item missing
 
+**Head**
+- Cerebral Haemorrage: should adapt the location of amputated arm and leg to mirror critical side (left arm and left leg for left head critical)
+- Neck Wound: Didn't add test, since it can be End or Cool
+
 ## Legal Mentions
 Module Developers: 
 Author:  
