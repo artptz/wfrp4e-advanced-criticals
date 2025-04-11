@@ -1,7 +1,7 @@
 {
   "id": "wfrp4e-advanced-criticals",
-  "title": "WFRP4E - Advanced criticals from WindsOfChaos",
-  "version": "0.1",
+  "title": "WFRP4e - Expanded criticals",
+  "version": "0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -12,22 +12,23 @@
         "id": "wfrp4e",
         "type": "system",
         "compatibility": {
-		  "minimum": "8.0.2",
+          "minimum": "8.0.2",
           "verified": "8.0.4"
-		}
+        }
       }
     ]
   },
   "description": "A module adding alternative critical tables for WFRP4ed for different kinds of damage source.",
   "authors": [
     {
-      "name": "TuroTotoro",
-      "discord": "turototoro#5673",
+      "name": "artantares",
+      "discord": "artantares",
       "url": "https://github.com/artptz/wfrp4e-darto"
     },
     {
       "name": "Forien",
-      "discord": "forien#2130"
+      "discord": "forien#2130",
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -35,47 +36,55 @@
   ],
   "packs": [
     {
-      "name": "advanced-criticals",
+      "name": "items",
       "label": "Expanded Criticals",
-      "path": "packs/advanced-criticals",
+      "path": "packs/items",
       "type": "Item",
       "system": "wfrp4e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
-      "name": "advanced-criticals-rolltables",
+      "name": "rolltables",
       "label": "Expanded Criticals Rolltables",
-      "path": "packs/advanced-criticals-rolltables",
+      "path": "packs/rolltables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wfrp4e"
+      "system": "wfrp4e",
+      "flags": {}
     },
     {
-      "name": "advanced-criticals-macros",
+      "name": "macros",
       "label": "Expanded Criticals Macros",
-      "path": "packs/advanced-criticals-macros",
+      "path": "packs/macros",
       "type": "Macro",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wfrp4e"
+      "system": "wfrp4e",
+      "flags": {}
     }
   ],
   "packFolders": [
-      {
-        "name": "Expanded Criticals",
-        "sorting": "m",
-        "packs": ["advanced-criticals","advanced-criticals-rolltables","advanced-criticals-macros"],
-        "color":  "#e71313"
-      }
-    ],
-  "manifest":"https://raw.githubusercontent.com/artptz/wfrp4e-advanced-criticals/main/module.json",
+    {
+      "name": "Expanded Criticals",
+      "sorting": "m",
+      "packs": [
+        "items",
+        "rolltables",
+        "macros"
+      ],
+      "color": "#e71313",
+      "folders": []
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/artptz/wfrp4e-advanced-criticals/main/module.json",
   "download": "https://github.com/artptz/wfrp4e-advanced-criticals/archive/main.zip"
 }

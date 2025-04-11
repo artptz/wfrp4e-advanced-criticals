@@ -32,8 +32,20 @@ Expqanded criticals according to the supplement by Josef Tham
 - Cerebral Haemorrage: should adapt the location of amputated arm and leg to mirror critical side (left arm and left leg for left head critical)
 - Neck Wound: Didn't add test, since it can be End or Cool
 
+### Crushing
+**Bruised Muscle**
+- To do
+
+# v0.2
+- Crushing Criticals
+- Switch Tables to Compendium items
+- Roll Crit macro
+
+# v0.1
+- Arrows/Bolts and Bullets Criticals
+- RollTables for all groups
+ 
 ## Legal Mentions
-Module Developers: 
-Author:  
-Rules Development: 
-Contributors: 
+Author:  \
+Module Development: \
+Contributors: \
