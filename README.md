@@ -1,6 +1,22 @@
 # EXPANDED CRITICALS FOR WFRP4E
 Expqanded criticals according to the supplement by Josef Tham
 
+
+# v0.2
+- Crushing Criticals
+- Switch Tables to Compendium items  
+- Roll Crit macro
+
+# v0.1
+- Arrows/Bolts and Bullets Criticals
+- RollTables for all groups
+ 
+## Legal Mentions
+Author:  \
+Module Development: \
+Contributors: \
+
+
 ## LOG
 ### Arrows
 - All arrows items: how to handle extraction?
@@ -33,19 +49,22 @@ Expqanded criticals according to the supplement by Josef Tham
 - Neck Wound: Didn't add test, since it can be End or Cool
 
 ### Crushing
-**Bruised Muscle**
-- To do
+**Arm**
+- Bruised Muscle: To do
 
-# v0.2
-- Crushing Criticals
-- Switch Tables to Compendium items
-- Roll Crit macro
+### Cutting
+**Arm**
+- Bleeding Hand: Not coding the part about dropping item
+- Forearm Injury: Not coding the part about dropping item
+- Jarred Arm: Not coding the part about dropping item
+- Severed Clavicle: To do
 
-# v0.1
-- Arrows/Bolts and Bullets Criticals
-- RollTables for all groups
- 
-## Legal Mentions
-Author:  \
-Module Development: \
-Contributors: \
+**Body**
+- Tummy slice: not sure how to code it
+
+**Head**
+- Glancing blow: not sure how to code it
+- Split Skull: Add Festering Wound / Minor infection
+
+**Leg**
+- Shin Hit: To Do

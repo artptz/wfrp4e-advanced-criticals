@@ -1,10 +1,10 @@
 {
   "id": "wfrp4e-advanced-criticals",
   "title": "WFRP4e - Expanded criticals",
-  "version": "0.2",
+  "version": "0.3",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "13.362"
   },
   "relationships": {
     "systems": [
@@ -12,8 +12,8 @@
         "id": "wfrp4e",
         "type": "system",
         "compatibility": {
-          "minimum": "8.0.2",
-          "verified": "8.0.4"
+          "minimum": "9.0.0",
+          "verified": "9.0.4"
         }
       }
     ]
@@ -23,7 +23,7 @@
     {
       "name": "artantares",
       "discord": "artantares",
-      "url": "https://github.com/artptz/wfrp4e-darto"
+      "url": "https://github.com/artptz"
     },
     {
       "name": "Forien",
