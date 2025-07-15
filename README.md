@@ -2,13 +2,18 @@
 Expqanded criticals according to the supplement by Josef Tham
 
 
+# v0.3
+- Cutting Criticals
+- Flames Criticals
+
 # v0.2
 - Crushing Criticals
 - Switch Tables to Compendium items  
 - Roll Crit macro
 
 # v0.1
-- Arrows/Bolts and Bullets Criticals
+- Arrows/Bolts Criticals 
+- Bullets Criticals
 - RollTables for all groups
  
 ## Legal Mentions
@@ -68,3 +73,7 @@ Contributors: \
 
 **Leg**
 - Shin Hit: To Do
+
+### Flames
+**Body**
+- Twisted Back: To Do
