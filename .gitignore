@@ -3,6 +3,7 @@
 *.log
 *.sql
 *.sqlite
+TODO.md
  
 # OS generated files #
 ######################

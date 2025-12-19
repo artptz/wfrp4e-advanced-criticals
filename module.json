@@ -1,10 +1,10 @@
 {
-  "id": "wfrp4e-advanced-criticals",
+  "id": "artantares-advanced-criticals",
   "title": "WFRP4e - Expanded criticals",
-  "version": "0.3",
+  "version": "1.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.362"
+    "verified": "13.351"
   },
   "relationships": {
     "systems": [
@@ -13,12 +13,12 @@
         "type": "system",
         "compatibility": {
           "minimum": "9.0.0",
-          "verified": "9.0.4"
+          "verified": "9.3.2"
         }
       }
     ]
   },
-  "description": "A module adding alternative critical tables for WFRP4ed for different kinds of damage source.",
+  "description": "A module adding alternative critical tables for WFRP4ed for different kinds of damage source. Based on the ruleset written by Josef Tham and the work by Chuck Morrison of www.windsofchaos.com",
   "authors": [
     {
       "name": "artantares",
@@ -26,9 +26,10 @@
       "url": "https://github.com/artptz"
     },
     {
-      "name": "Forien",
-      "discord": "forien#2130",
-      "flags": {}
+      "name": "Josef Tham"
+    },
+    {
+      "name": "Chuck Morrison"
     }
   ],
   "esmodules": [
@@ -85,6 +86,7 @@
       "folders": []
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/artptz/wfrp4e-advanced-criticals/main/module.json",
-  "download": "https://github.com/artptz/wfrp4e-advanced-criticals/archive/main.zip"
+  "url": "https://github.com/artptz/wfrp4e-advanced-criticals",
+  "manifest": "https://github.com/artptz/wfrp4e-advanced-criticals/releases/latest/download/module.json",
+  "download": "https://github.com/artptz/wfrp4e-advanced-criticals/releases/download/v1.0.0/artantares-crits.zip"
 }
