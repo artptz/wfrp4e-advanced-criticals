@@ -31,10 +31,7 @@
     {
       "name": "Chuck Morrison"
     }
-  ],
-  "esmodules": [
-    "wfrp4e-adv-criticals.mjs"
-  ],
+  ]
   "packs": [
     {
       "name": "items",
