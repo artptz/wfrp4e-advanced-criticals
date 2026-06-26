@@ -1,10 +1,10 @@
 {
   "id": "artantares-advanced-criticals",
-  "title": "ArtAntares - Expanded criticals [WFRP4E]",
-  "version": "1.0",
+  "title": "Antares | Expanded Criticals [WFRP4E]",
+  "version": "2.0",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13.351"
+    "minimum": "14",
+    "verified": "14"
   },
   "relationships": {
     "systems": [
@@ -13,29 +13,32 @@
         "type": "system",
         "compatibility": {
           "minimum": "9.0.0",
-          "verified": "9.3.2"
+          "verified": "9.6.1"
         }
       }
     ]
   },
-  "description": "A module adding alternative critical tables for WFRP4ed for different kinds of damage source. Based on the ruleset written by Josef Tham and the work by Chuck Morrison of www.windsofchaos.com",
+  "description": "<p>A module adding alternative critical tables for WFRP4ed for different kinds of damage source. Based on the ruleset written by Josef Tham and the work by Chuck Morrison of www.windsofchaos.com</p>",
   "authors": [
     {
-      "name": "artantares",
+      "name": "antares",
       "discord": "artantares",
-      "url": "https://github.com/artptz"
+      "url": "https://github.com/artptz",
+      "flags": {}
     },
     {
-      "name": "Josef Tham"
+      "name": "Josef Tham",
+      "flags": {}
     },
     {
-      "name": "Chuck Morrison"
+      "name": "Chuck Morrison",
+      "flags": {}
     }
   ],
   "packs": [
     {
       "name": "items",
-      "label": "Expanded Criticals",
+      "label": "Items (Expanded Criticals)",
       "path": "packs/items",
       "type": "Item",
       "system": "wfrp4e",
@@ -47,26 +50,26 @@
     },
     {
       "name": "rolltables",
-      "label": "Expanded Criticals Rolltables",
+      "label": "Tables (Expanded Criticals)",
       "path": "packs/rolltables",
       "type": "RollTable",
+      "system": "wfrp4e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wfrp4e",
       "flags": {}
     },
     {
       "name": "macros",
-      "label": "Expanded Criticals Macros",
+      "label": "Macros (Expanded Criticals)",
       "path": "packs/macros",
       "type": "Macro",
+      "system": "wfrp4e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wfrp4e",
       "flags": {}
     }
   ],
@@ -85,5 +88,6 @@
   ],
   "url": "https://github.com/artptz/wfrp4e-advanced-criticals",
   "manifest": "https://github.com/artptz/wfrp4e-advanced-criticals/releases/latest/download/module.json",
-  "download": "https://github.com/artptz/wfrp4e-advanced-criticals/releases/download/v1.0.0/artantares-crits.zip"
+  "download": "https://github.com/artptz/wfrp4e-advanced-criticals/releases/download/v2.0.0/artantares-crits.zip",
+  "flags": {}
 }
