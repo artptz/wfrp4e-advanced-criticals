@@ -1,6 +1,9 @@
 # EXPANDED CRITICALS FOR WFRP4E
 Expqanded criticals according to the supplement by Josef Tham (Based on the work of Chuck Morrison for windsofchaos.com)
 
+# v2.0
+- Update to Foundry v14
+
 # v1.0
 - All criticals initialized
 
