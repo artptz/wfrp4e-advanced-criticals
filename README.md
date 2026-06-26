@@ -2,6 +2,8 @@
 Expqanded criticals according to the supplement by Josef Tham (Based on the work of Chuck Morrison for windsofchaos.com)
 
 # v2.0
+- Fix mismatched items to tables
+- Correct table folder location
 - Update to Foundry v14
 
 # v1.0
